@@ -1,0 +1,18 @@
+
+body {
+  background-color: #f5f6f8;
+  color: #333;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.report-container {
+  background-color: white;
+}
+@media print {
+  #savePdf, #sendEmail, #clearEngineerSig, #clearCustomerSig {
+    display: none !important;
+  }
+  .report-container {
+    background-color: white !important;
+    color: black !important;
+  }
+}
